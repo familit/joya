@@ -17,3 +17,26 @@
         z-index: 1;
     }
 }
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    body {
+        width: 420px;
+    }
+    #companyBr {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+    section {
+        width: 420px;
+    }
+    .inner {
+        width: 420px;
+    }
+    footer {
+        width: 420px;
+        margin: -120px;
+        z-index: 1;
+    }
+}
