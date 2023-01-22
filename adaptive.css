@@ -1,0 +1,5 @@
+@media all and (min-width: 1024px) and (max-width: 1200px) {
+    body {
+        width: 1000px;
+    }
+}
