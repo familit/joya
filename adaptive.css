@@ -3,3 +3,17 @@
         width: 1000px;
     }
 }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        width: 760px;
+    }
+    section {
+        width: 640px;
+    }
+    footer {
+        margin: -120px;
+        width: 640px;
+        z-index: 1;
+    }
+}
