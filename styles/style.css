@@ -5,15 +5,15 @@
 
 body {
     margin: 0 auto;
-    width: 1200px;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     color: var(--main-color);
     font-family: 'Montserrat', sans-serif;
     background: url('../images/background.jpg');
+    backdrop-filter: blur(2px);
 }
 
 h1 {
